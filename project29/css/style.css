@@ -1,0 +1,272 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-bar {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 0px;
+}
+
+.menu {
+  width: 40px;
+  height: 40px;
+}
+
+/* .title {
+  width: 300px;
+  height: 10px;
+  top: 60px;
+} */
+
+.item {
+  position: absolute;
+  /* right: 0px; */
+
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+}
+i {
+  font-size: 24px;
+  color: #222222;
+}
+.navigationbararea {
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.duapp {
+  margin-left: 80px;
+  /* border: 1px solid red; */
+}
+.backsiteimage {
+  top: -70px;
+  position: relative;
+}
+.backbg {
+  /* z-index: 9999; */
+  position: absolute;
+  top: 0px;
+  right: 0%;
+}
+.backbg img {
+  width: 800px;
+  height: 600px;
+  border: none;
+}
+.girlimg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+}
+.girlimg img {
+  width: 580px;
+}
+
+.hero-text {
+  /* border: 1px solid red; */
+  padding-top: 110px;
+  padding-left: 50px !important;
+}
+.hero-text h1 {
+  font-size: 56px;
+  width: 360px;
+  font-weight: 700;
+  color: #130f49;
+}
+.heropimg {
+  display: flex;
+  align-items: center;
+}
+.heropimg p {
+  color: #130f49;
+  /* letter-spacing: 1px; */
+  font-weight: 500;
+}
+.heropimg p span {
+  color: #ffd32c;
+}
+.heropimg img {
+  margin-top: -10px;
+  width: 25px;
+}
+.stnwbtn {
+  padding-top: 30px;
+}
+.stnwbtn a {
+  text-decoration: none;
+  background: #130f49;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+.stnwbtn a:hover {
+  background: #130f49;
+  color: #ffd32c;
+}
+
+.sectiiotwo {
+}
+.owntergets {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  /* border:1px solid red; */
+}
+.text-part {
+  margin-bottom: 0px;
+  /* border: 1px solid yellow; */
+}
+.text-part h1 {
+  font-size: 53px;
+  width: 300px;
+  font-weight: 600;
+  color: #130f49;
+  /* border: 1px solid yellow; */
+}
+.text-part p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 300px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: gray;
+  /* border: 1px solid yellow; */
+}
+
+.sectionthree {
+  margin-top: 60px;
+  /* border: 1px solid red; */
+}
+.ttxtprt1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.ttxtprt1 h1 {
+  font-size: 53px;
+  width: 300px;
+  font-weight: 600;
+  color: #130f49;
+}
+.ttxtprt1 p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 300px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 25px;
+  color: gray;
+  /* border: 1px solid yellow; */
+}
+.imgndtxtprt {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.s3txtprt {
+  /* border: 1px solid red; */
+  width: 400px;
+}
+.stilo {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.tdsf {
+  padding: 0px 20px;
+}
+.tdsf h5 {
+  font-size: 17px;
+  color: #130f49;
+}
+.tdsf p {
+  letter-spacing: 1px;
+  color: gray;
+}
+.sectionthree {
+  position: relative;
+}
+.backims3 {
+  left: 0%;
+  position: absolute;
+  top: 0px;
+  z-index: -9999999;
+}
+.backims3 img {
+  width: 668px;
+}
+.mggrp img {
+  margin: 7px;
+}
+
+.sectionfour {
+  margin-top: 160px;
+  margin-bottom: 80px;
+  /* border: 1px solid red; */
+}
+.s4background {
+  /* width: 480px; */
+  height: 480px;
+  background: #cce8fd;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.s4img img {
+  width: 390px;
+  margin-top: -30px;
+}
+.s4txtprt h1 {
+  font-size: 53px;
+  width: 300px;
+  font-weight: 600;
+  color: #130f49;
+}
+.jnwbtn {
+  padding-top: 34px;
+}
+.jnwbtn a {
+  text-decoration: none;
+  background-color: #130f49;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.footerback {
+  background-attachment: fixed;
+  /* height: 100px; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.footerback p {
+  font-weight: 600;
+  font-size: 19px;
+  color: #130f49;
+  letter-spacing: 1px;
+}
+.footerback p a{
+    font-weight: 600;
+    color: #ffd32c;
+    text-decoration-color: #ffd32c;
+  }
